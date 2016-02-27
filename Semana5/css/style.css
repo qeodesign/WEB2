@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+div {
+  min-height: 100px;
+  height: 30vw;
+  text-align: center;
+  position: relative;
+  margin: 1vw 0;
+  z-index: 0;
+}
+div {
+  background: url(..img/logo.png);
+  
+
+  }
+
+div:nth-of-type(1) {
+  background: url(../img/hardrockcafe.jpg) center 40% no-repeat;
+  background-size: cover;
+}
+
+div:nth-of-type(2) {
+  background: url(../img/bahiaprincipe.jpg) center 40% no-repeat;
+  background-size: cover;
+}
+
+div:nth-of-type(3) {
+  background: url(../img/paradisus.jpg) center 55% no-repeat;
+  background-size: cover;
+}
+
+div:nth-of-type(4) {
+  background: url(../img/meliacaribe.jpg) center 60% no-repeat;
+  background-size: cover;
+}
+
+div:nth-of-type(5) {
+  background: url(../img/allsuites.jpg) center 60% no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 2%;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  max-width: 280px;
+  max-height: 60px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 1.3em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.offset-color {
+  font-family: 'Francois One', sans-serif;
+  border: 3px solid rgb(255, 231, 48);
+  font-size: 1.7em;
+  line-height: 1em;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.offset-color:after {
+  content: "";
+  display: block;
+  background: rgba(31, 86, 185, 0.85);
+  width: 102%;
+  height: 107%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0.1em;
+  left: -0.3em;
+  z-index: -1;
+  -moz-transition: all, 0.2s, ease-in;
+  -o-transition: all, 0.2s, ease-in;
+  -webkit-transition: all, 0.2s, ease-in;
+  transition: all, 0.2s, ease-in;
+}
+
+.offset-color:hover:after {
+  background: rgba(228, 255, 0, 0.8);
+  -moz-transition: all, 0.2s, ease-out;
+  -o-transition: all, 0.2s, ease-out;
+  -webkit-transition: all, 0.2s, ease-out;
+  transition: all, 0.2s, ease-out;
+}
+
+
+
+
+
