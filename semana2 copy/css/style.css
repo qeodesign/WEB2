@@ -1,0 +1,28 @@
+body {
+    margin-top: 100px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'futura', sans-serif;
+    background: url(../img/demi.jpg) no-repeat center center fixed;
+    font-size: 30px; 
+    color: ;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'futura std', sans-serif;
+    color: #1589b7;
+}
+
+h3 {
+    color: ;
+    font-family: 'futura', sans-serif;
+    font-size: 15px;
+}
+
+.text{
+    font-size: 1.3em;
+}
