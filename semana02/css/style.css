@@ -1,0 +1,111 @@
+.section {
+  padding: 0;
+  overflow: hidden;
+}
+
+.section {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.first {
+  background-image: url(http://www.gannett-cdn.com/-mm-/cdc9e1a452317bf2799491daf5a547cd7875407a/c=0-187-3748-2305&r=x1683&c=3200x1680/local/-/media/USATODAY/USATODAY/2014/04/06//1396811391000-MARTIN-GARRIX-OTV-MUS-JY-3064--62645850.JPG);
+  background-color:none;
+  background-blend-mode: ;
+}
+.first .square {
+  width: 200px;
+  height: 200px;
+  border: 15px solid white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+.first .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 15px solid white;
+  position: absolute;
+  top: auto;
+  right: 100px;
+  bottom: 100px;
+  left: auto;
+  z-index: 3;
+}
+.first h1 {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 96px;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    z-index: 2;
+    position: absolute;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.32);
+}
+
+.second {
+  background-image: url(http://a2.format-assets.com/image/private/s---93ukpgZ--/c_limit,g_center,h_65535,w_2500/a_auto,fl_keep_iptc.progressive,q_95/200951-12953097-IMG_0958_jpg.jpg);
+  background-color: #0b211d;
+  background-blend-mode: luminosity
+}
+.second p {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 23px;
+    vertical-align: top;
+    color: white;
+    padding-left: 67%;
+    padding-bottom: 2%;
+    padding-right: 15px;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+.second .rectangle {
+
+    width: 349px;
+    height: 555px;
+    border: 15px solid white;
+    position: absolute;
+    top: 39%;
+    left: 58%;
+    margin-left: -275px;
+    margin-top: -199px;
+    z-index: 1;
+}
+
+.third {
+  background-image: url(https://d21buns5ku92am.cloudfront.net/39693/images/147654-empopicture-338831-original-1415193789.jpg);
+  background-color: #0b211d;
+  background-blend-mode: luminosity;
+}
+.third p {
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 23px;
+    vertical-align: top;
+    color: white;
+    padding-left: 67%;
+    padding-right: 15px;
+    margin: 0;
+        padding-top: 17%;
+    position: relative;
+    z-index: 2;
+}
+.third .parallelogram {
+    width: 387px;
+    height: 243px;
+    border: 15px solid white;
+        position: absolute;
+    top: 47.5%;
+    right: 24%;
+    bottom: auto;
+    left: auto;
+    margin-right: -297px;
+    margin-top: -291px;
+    z-index: 1;
+}
