@@ -1,0 +1,68 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif !important;
+  color: #fff;
+  background-color: #eee;
+
+
+    background-image: url("../img/fondodream.png");
+    background-size: 1440px 828px;
+}
+
+.margen {
+
+margin-top: 30px;
+}
+
+}
+
+.container {
+  width: 520px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-top: 5%;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #11E0EA !important;
+    border-color: #357ebd;
+  }
+.counter {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.posts {
+  color: #fff!important;
+
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+
+      background-color: rgba(17, 224, 234, 0.68);
+    border: 1px solid rgba(21, 7, 7, 0);
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+}
+
+.selected {
+  background-color: gray;
+  
+}
