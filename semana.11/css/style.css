@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+	background-image: url("../img/justin.png" );
+	 background-repeat: no-repeat;
+}
+
+
+.buttonContainer{
+	margin-top:100px;
+	text-align:center;
+
+}
+img {
+    margin-top: 41px;
+    margin-left: 85px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+	padding-left: 500px;
+	    padding-top: 240px;
+	        margin-top: -220px;
+
+}
+h1{
+	color:rgba(69, 69, 69, 1);
+	line-height:2em;
+	    padding-left: 80px;
+	        margin-top: -61px;
+}
+
+a.button {
+
+    display: inline-block;
+    font: normal normal 300 1.3em 'Open Sans';
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    brackground-color: transparent;
+    border: 1px solid rgb(237, 105, 15);
+    border-radius: 100px;
+    padding: .3em 1.2em;
+    margin: 5px;
+    background-size: 200% 100%;
+    margin-left: 79px;
+    background-image: -webkit-linear-gradient(left, transparent 50%, rgb(229, 5, 72) 50%);
+    background-image: linear-gradient(to right, transparent 50%, rgb(229, 5, 71) 50%);
+    -webkit-transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;
+    transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s, color .5s ease 0s, background-color .5s ease;
+}
+a.button:hover{
+	color: #fff;
+	background-color:rgba(237, 105, 15, 0.47);
+	background-position: -100% 100%;
+}
