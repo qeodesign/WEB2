@@ -6,8 +6,13 @@ h2 {
     font-size: 50px;
 	text-align: center;
 	margin-top: 0px;
-}
+	font-family: 'Comfortaa', cursive;
 
+
+}
+h3 {
+font-family: 'Comfortaa', cursive;
+	}
 
 .clearing-thumbs {
 	list-style: none;
@@ -18,6 +23,9 @@ h2 {
 }
 
 
+p{
+	font-family: 'Comfortaa', cursive;
+}
 #top {
 	position: fixed; top: 0px;
 	left: 0px;
